@@ -13,6 +13,7 @@ public class keeper {
 		this.name=name;
 	}
 	
+	//the manageAlbum method has an album object created
 	public void manageAlbum(Album album,String artist,String name,double price,int numberOfcopies,int no, int num) {
 		//Defining States & behaviors for album
 		album.setName(name);
